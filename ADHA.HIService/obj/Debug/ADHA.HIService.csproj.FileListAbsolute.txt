@@ -1,0 +1,17 @@
+C:\HIService\ADHA.HIService\bin\Debug\ADHA.HIService.exe.config
+C:\HIService\ADHA.HIService\bin\Debug\ADHA.HIService.exe
+C:\HIService\ADHA.HIService\bin\Debug\ADHA.HIService.pdb
+C:\HIService\ADHA.HIService\bin\Debug\AutoMapper.dll
+C:\HIService\ADHA.HIService\bin\Debug\Nehta.VendorLibrary.Common.dll
+C:\HIService\ADHA.HIService\bin\Debug\Nehta.VendorLibrary.HI.dll
+C:\HIService\ADHA.HIService\bin\Debug\AutoMapper.xml
+C:\HIService\ADHA.HIService\bin\Debug\Nehta.VendorLibrary.Common.xml
+C:\HIService\ADHA.HIService\obj\Debug\ADHA.HIService.csproj.AssemblyReference.cache
+C:\HIService\ADHA.HIService\obj\Debug\ADHA.HIService.AddPatient.resources
+C:\HIService\ADHA.HIService\obj\Debug\ADHA.HIService.Form1.resources
+C:\HIService\ADHA.HIService\obj\Debug\ADHA.HIService.Properties.Resources.resources
+C:\HIService\ADHA.HIService\obj\Debug\ADHA.HIService.csproj.GenerateResource.cache
+C:\HIService\ADHA.HIService\obj\Debug\ADHA.HIService.csproj.CoreCompileInputs.cache
+C:\HIService\ADHA.HIService\obj\Debug\ADHA.HIService.csproj.CopyComplete
+C:\HIService\ADHA.HIService\obj\Debug\ADHA.HIService.exe
+C:\HIService\ADHA.HIService\obj\Debug\ADHA.HIService.pdb
