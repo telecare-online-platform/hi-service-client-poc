@@ -37,7 +37,7 @@ namespace ADHA.HIService
         {
             // Obtain the certificate by serial number
             X509Certificate2 tlsCert = X509CertificateUtil.GetCertificate(
-                "2f6a",
+                "2fda",
                 X509FindType.FindBySerialNumber,
                 StoreName.My,
                 StoreLocation.CurrentUser,
@@ -66,24 +66,24 @@ namespace ADHA.HIService
             QualifiedId user = new QualifiedId()
             {
                 id = "User Id",                 // User ID internal to your system
-                qualifier = "http://<anything>/id/<anything>/userid/1.0"
+                qualifier = "http://ns.electronichealth.net.au/id/hi/userid/1.0"
                 // Eg: http://ns.yourcompany.com.au/id/yoursoftware/userid/1.0
             };
 
             // Set up organisation identifier details, only required for CSP software. If run as a CSP software, the certificate needs to be a CSP certificate
 
-            //QualifiedId hpio = new QualifiedId()
-            //{
-            //    id = "", // HPIO internal to your system
-            //    qualifier = "" // Eg: http://ns.yourcompany.com.au/id/yoursoftware/userid/1.0
-            //};
+            QualifiedId hpio = new QualifiedId()
+            {
+                id = "8003624900037166", // HPIO internal to your system
+                qualifier = "http://ns.electronichealth.net.au/id/hi/hpio/1.0" // Eg: http://ns.yourcompany.com.au/id/yoursoftware/userid/1.0
+            };
 
             // Instantiate the client
             ConsumerSearchIHIClient client = new ConsumerSearchIHIClient(
                 new Uri("https://www5.medicareaustralia.gov.au/cert/soap/services/"),
                 product,
                 user,
-                null, // or hpio if implemented as a CSP software
+                hpio, // or hpio if implemented as a CSP software
                 signingCert,
                 tlsCert);
 
